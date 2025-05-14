@@ -1,0 +1,40 @@
+# 환경변수 및 보안 관련 파일
+.env
+*.json
+
+# Python 관련
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+venv/
+.venv/
+
+# 로그 파일
+*.log
+
+# 임시 파일
+*.tmp
+*.temp
+.DS_Store
+
+# 프로젝트 생성 결과물
+output/
+output_*/
+*_page.py
